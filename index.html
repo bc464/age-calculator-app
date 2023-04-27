@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div role="main" class="main-container">
+      <div class="input-boxes">
+        <div class="input-box">
+          <div>
+            <h1>DAY</h1>
+            <input type="text" class="day-input" placeholder="DD" />
+          </div>
+          <p class="error-msg error-msg__day">&nbsp;</p>
+        </div>
+        <div class="input-box">
+          <div>
+            <h1>MONTH</h1>
+            <input type="text" class="month-input" placeholder="MM" />
+          </div>
+          <p class="error-msg error-msg__month">&nbsp;</p>
+        </div>
+        <div class="input-box">
+          <div>
+            <h1>YEAR</h1>
+            <input type="text" class="year-input" placeholder="YYYY" />
+          </div>
+          <p class="error-msg error-msg__year">&nbsp;</p>
+        </div>
+      </div>
+      <div class="btn-box">
+        <div class="btn-line"></div>
+        <div class="btn-info">
+          <button class="btn">
+            <img
+              src="./assets/images/icon-arrow.svg"
+              alt="icon-arrow"
+              class="icon-arrow"
+            />
+          </button>
+        </div>
+      </div>
+      <div class="result-main__box">
+        <div class="result-box">
+          <div class="default-result">
+            <div class="default-result__box">
+              <p class="result-year result-text">--</p>
+            </div>
+          </div>
+          <div class="years-result">
+            <h2>years</h2>
+          </div>
+        </div>
+        <div class="result-box">
+          <div class="default-result">
+            <div class="default-result__box">
+              <p class="result-month result-text">--</p>
+            </div>
+          </div>
+          <div class="months-result">
+            <h2>months</h2>
+          </div>
+        </div>
+        <div class="result-box">
+          <div class="default-result">
+            <div class="default-result__box">
+              <p class="result-day result-text">--</p>
+            </div>
+          </div>
+          <div class="days-result">
+            <h2>days</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div role="contentinfo" class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">bc464</a>.
+    </div>
+  </body>
+</html>
